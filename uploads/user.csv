@@ -1,0 +1,4 @@
+Nombre,Apellido,Fecha de nacimiento,es profecional,id del perfil,id del rol,email,contraseña,id de tipo de documento,valor de documento,cuil,phone,cell_phone,calle,numero de calle,piso,epartamento,codigo postal,ciudad,partido,provincia,país
+Nicolas,Gonzales,1998-05-13,FALSE,2,2,nicolasgonzales@gmail.com,1234,1,40054124,203234565404,324556,2232344375,San Martin,2354,3,a,1771,CABA,CABA,Buenos Aires,Argentina
+Mariano,Betro,1985-03-24,FALSE,3,1,marianobetro@gmail.com,1234,1,35456654,202789876504,234456,2234548799,Caramarca,3234,4,b,1771,CABA,CABA,Buenos Aires,Argentina
+Alejandro,Lopez,1965-03-23,FALSE,3,1,alejandrolopez@gmail.com,1234,1,25656787,2025656787,234237,2234357689,14 de Julio,2332,3,b,1854,CABA,CABA,Buenos Aires,Argentina

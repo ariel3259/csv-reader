@@ -1,8 +1,8 @@
 export const validate = (type: string, payload: string, key: string, required: boolean): void =>  {
   const types: Record<string, any> = {
     number: (): void => {
-        const number: number = Number(payload);
-        if ( required && (Number.isNaN(number) || number === 0 )) throw new Error(`invalid argument ${key}, needed a number`);
+        const n: number = Number(payload);
+        if ( required && (Number.isNaN(n) || n === 0 )) throw new Error(`invalid argument ${key}, needed a number`);
     },
     email: (): void  => {
         if (

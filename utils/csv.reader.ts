@@ -36,7 +36,6 @@ export async function readCsv<DTO extends Validation>(
   for await (const row of rows) {
     try {
       const element: DTO = factory.getInstance();
-      console.log(element);
       const attributes: AttributesValidation[] = element.getAttributesValidation()
   
       for (let n = 0; n < attributes.length; n++) {
